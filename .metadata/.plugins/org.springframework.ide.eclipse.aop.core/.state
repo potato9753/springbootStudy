@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="TEST"/>
+<aop-project name="Sample09_jQuery2"/>
+<aop-project name="Sample02_bean"/>
+<aop-project name="Sample03_DI2_setter_method_call"/>
+<aop-project name="Sample05_scanBacePakege"/>
+<aop-project name="Sample06_Mybatis"/>
+<aop-project name="Sample03_DI_constructor2_method_parameter"/>
+<aop-project name="Sample09_jQuery"/>
+<aop-project name="Sample07_MVC2_image_css_js"/>
+<aop-project name="Sample08_Javascript"/>
+<aop-project name="Sample01_basic"/>
+<aop-project name="Sample10_fileupload"/>
+<aop-project name="Sample07_MVC1_basic"/>
+<aop-project name="project_test-1"/>
+<aop-project name="03Day_web4_Board"/>
+<aop-project name="Sample03_DI3_@Autowired"/>
+<aop-project name="Sample04_component_scan"/>
+<aop-project name="Sample07_MVC3_MyBatis"/>
+<aop-project name="project_test"/>
+<aop-project name="Sample03_DI2_setter2_method_parameter"/>
+<aop-project name="Sample03_DI_constructor1_method_call"/>
+<aop-project name="01Day4_MyBatis_xml_annotation3_componentScan"/>
+<aop-project name="Sample02_bean2_service"/>
+</aop-reference-model>

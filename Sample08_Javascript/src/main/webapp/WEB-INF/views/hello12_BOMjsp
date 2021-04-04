@@ -1,0 +1,73 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	//2. 브라우저 객체 (BOM)
+	/*
+	A.	Window : Var window = new Window();
+	B.	Screen : Var screen = new Screen();
+	C.	Location : Var location = new Location();
+	D.	Navigator : Var navigator = new Navigator();
+	E.	History : Var history = new History();
+	*/
+	 
+	function fun(){
+		console.log("화면정보:",screen);
+		console.log(screen.width);
+		console.log(screen.height);
+	}
+	
+	function fun2(){
+		console.log("브라우저:",navigator);
+		console.log(navigator.userAgent);
+		console.log(navigator.onLine);
+	}
+	
+	function fun3(){
+		console.log("url 정보:",location);
+		console.log(location.href);
+		console.log(location.host);
+		console.log(location.port);
+		//location.reload();
+		
+		//특정 url 지정해서 요청
+		location.href="http://www.google.com";
+	}
+	
+	function fun4(){
+		console.log("윈도우 객체:",window);
+	}
+	
+	function fun5(){
+		/*alert("Hello");
+		window.alert("Hello");
+		
+		var m = prompt("이름:");
+		console.log(m);*/
+		setTimeout(function(){
+			console.log("setTimeOut")
+		}, 3000) // 3초뒤에 함수 한번 실행
+		
+		var xxx = setInterval(function(){
+			console.log("setInterval")
+		}, 2000) // 2초뒤에 함수 반복 실행
+		
+		//clearInterval(xxx);
+	}
+	
+	
+</script>
+</head>
+<body>
+
+<button onclick="fun()">Screen 객체</button>
+<button onclick="fun2()">Navigator 객체</button>
+<button onclick="fun3()">Location 객체</button>
+<button onclick="fun4()">Window 객체</button>
+<button onclick="fun5()">Window 객체의 유틸리티 함수</button>
+</body>
+</html>

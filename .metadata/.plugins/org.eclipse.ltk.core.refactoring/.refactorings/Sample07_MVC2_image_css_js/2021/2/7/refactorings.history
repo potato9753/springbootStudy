@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.config&apos; to &apos;Sample07_MVC3_MyBatis/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;Sample07_MVC2_image_css_js&apos;&#x0D;&#x0A;- Destination element: &apos;Sample07_MVC3_MyBatis/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;Sample07_MVC2_image_css_js/src/main/java/com.config&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=Sample07_MVC3_MyBatis/src\/main\/java" element1="/src\/main\/java&lt;com.config" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1612768591637" version="1.0"/>
+</session>
